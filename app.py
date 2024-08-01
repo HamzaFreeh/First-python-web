@@ -18,13 +18,12 @@ JOBS = [
          'id':3,
          'title': 'Front-end Engineer',
          'location': 'Remote',
-         'salary': 'Rs. 12,00,000'
     },
     {
          'id':1,
          'title': 'Back-end Engineer',
          'location': 'San Francisco, USA',
-         'salary': '$120,000'
+         'salary': '$150,000'
     },
 ]
 
