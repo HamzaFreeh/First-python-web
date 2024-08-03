@@ -4,9 +4,9 @@ from flask.typing import TemplateFilterCallable
 JOBS = [
     {
          'id':1,
-         'title': 'Montage Rubik\'s Cube',
+         'title': 'Data Analytic',
          'location': 'Nouaceur, Maroc',
-         'salary': 'Tozzzzzzzzzzzzzzzzz'
+         'salary': 'Rs. 12,00,000'
     },
     {
          'id':2,
@@ -20,7 +20,7 @@ JOBS = [
          'location': 'Remote',
     },
     {
-         'id':1,
+         'id':4,
          'title': 'Back-end Engineer',
          'location': 'San Francisco, USA',
          'salary': '$150,000'
@@ -30,7 +30,7 @@ JOBS = [
 app = Flask(__name__)
 @app.route("/")
 def hello():
-    return render_template("home.html",jobs=JOBS,company_name="Omar")
+    return render_template("home.html",jobs=JOBS,company_name="Hamza")
 
 @app.route("/api/jobs")
 def list_jobs():
